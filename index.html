@@ -1,0 +1,213 @@
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قناة النهار | Al Nahar TV</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font Cairo -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Cairo', sans-serif; }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .animate-marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 16s linear infinite;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-gray-100 antialiased">
+
+    
+    <header class="bg-slate-950 border-b border-slate-800 shadow-xl sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row-reverse justify-between items-center">
+           
+            <div class="flex items-center gap-3 mb-4 md:mb-0">
+                <img src="logo.png" alt="شعار قناة النهار" class="w-12 h-12 object-contain rounded-full shadow-md bg-white p-1">
+                <h1 class="text-2xl font-black text-red-500 tracking-wider">قناة النهار</h1>
+            </div>
+            
+            <nav>
+                <ul class="flex flex-wrap justify-center gap-8 font-semibold text-gray-300">
+                    <li><a href="#" class="hover:text-red-400 transition pb-1 border-b-2 border-transparent hover:border-red-500">الرئيسية</a></li>
+                    <li><a href="#pro" class="hover:text-red-400 transition pb-1 border-b-2 border-transparent hover:border-red-500">البرامج والمسلسلات</a></li>
+                    <li><a href="#ramadan" class="hover:text-red-400 transition pb-1 border-b-2 border-transparent hover:border-red-500">خريطة رمضان</a></li>
+                    <li><a href="#sch" class="hover:text-red-400 transition pb-1 border-b-2 border-transparent hover:border-red-500">جدول البث</a></li>
+                    <li><a href="#us" class="hover:text-red-400 transition pb-1 border-b-2 border-transparent hover:border-red-500">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="bg-red-600 text-white py-3 overflow-hidden shadow-lg relative">
+        <div class="flex items-center overflow-hidden whitespace-nowrap">
+            <div class="bg-red-800 px-4 py-1 z-10 font-bold ml-4 shadow-md text-sm md:text-base flex items-center gap-1 rounded">
+                <span>🔴 عاجل</span>
+            </div>
+            <div class="animate-marquee font-bold text-lg tracking-wide">
+                <span>الرئيس ترامب يمهل إيران مهلة أسبوعين لفتح مضيق هرمز &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; انطلاق خريطة البرامج الحصرية ومسلسلات رمضان على شاشة قناة النهار &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; تابعونا في تغطية خاصة لأبرز الأحداث السياسية والفنية على مدار الساعة</span>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container mx-auto px-6 py-12" id="pro">
+        <h2 class="text-3xl font-black text-center mb-10 text-white border-b-4 border-red-500 inline-block pb-2 mx-auto">أبرز برامج ومسلسلات قناة النهار</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+ <img src="lamis-hadidi.jpg" alt="لميس الحديدي" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">صوت الناس</h3>
+                    <p class="text-gray-400 text-sm">تقدمه لميس الحديدي</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="doaa-farouk.jpg" alt="دعاء فاروق" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">إسأل دعاء</h3>
+                    <p class="text-gray-400 text-sm">تقدمه دعاء فاروق</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="amira-badr.webp" alt="أميرة بدر" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">أسرار</h3>
+                    <p class="text-gray-400 text-sm">تقدمه أميرة بدر</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="ahmad-shobier.jpg" alt="أحمد شوبير" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">العدالة الرياضية</h3>
+                    <p class="text-gray-400 text-sm">يقدمه أحمد شوبير</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="mhamoud.jpg" alt="محمود سعد" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">باب مصر</h3>
+                    <p class="text-gray-400 text-sm">يقدمه محمود سعد</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="reham.jpg" alt="ريهام سعيد" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">صبايا الخير</h3>
+                    <p class="text-gray-400 text-sm">تقدمه ريهام سعيد</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="keber.jpg" alt="الكبير" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">مسلسل الكبير أوي</h3>
+                    <p class="text-gray-400 text-sm">دراما كوميدية متميزة</p>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden transform hover:-translate-y-2 transition duration-300 border border-slate-700">
+                <img src="calabsh.jpg" alt="كلبش" class="w-full h-56 object-cover">
+                <div class="p-5 text-center">
+                    <h3 class="text-xl font-bold text-white mb-1">مسلسل كلبش</h3>
+                    <p class="text-gray-400 text-sm">إثارة وتشويق درامي</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-slate-950 py-12 border-t border-slate-800" id="ramadan">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-black mb-8 text-white">خريطة مسلسلات رمضان</h2>
+            <div class="flex justify-center">
+                <img src="مسلسلات رمضان.jpg" alt="خريطة مسلسلات رمضان" class="rounded-2xl shadow-2xl max-w-full h-auto border border-slate-700">
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="bg-slate-900 py-12" id="sch">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-black text-center mb-10 text-white">جدول البث اليومي</h2>
+            <div class="overflow-x-auto">
+                <table class="w-full text-center border-collapse bg-slate-800 rounded-2xl overflow-hidden shadow-xl border border-slate-700">
+                    <thead>
+                        <tr class="bg-red-600 text-white">
+                            <th class="py-4 px-6">الوقت</th>
+                            <th class="py-4 px-6">البرنامج / المسلسل</th>
+                            <th class="py-4 px-6">المقدم / النجم</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-700 text-gray-200">
+                        <tr class="hover:bg-slate-700/50 transition">
+                            <td class="py-4 px-6 font-semibold text-red-400">6 مساءً</td>
+                            <td class="py-4 px-6 font-bold">مسلسل الكبير أوي</td>
+                            <td class="py-4 px-6 text-gray-400">أحمد مكي</td>
+                        </tr>
+                        <tr class="hover:bg-slate-700/50 transition">
+                            <td class="py-4 px-6 font-semibold text-red-400">7 مساءً</td>
+                            <td class="py-4 px-6 font-bold">مسلسل كلبش</td>
+                            <td class="py-4 px-6 text-gray-400">أمير كرارة</td>
+                        </tr>
+                        <tr class="hover:bg-slate-700/50 transition">
+                            <td class="py-4 px-6 font-semibold text-red-400">8 مساءً</td>
+                            <td class="py-4 px-6 font-bold">صبايا الخير</td>
+                            <td class="py-4 px-6 text-gray-400">ريهام سعيد</td>
+                        </tr>
+                        <tr class="hover:bg-slate-700/50 transition">
+                            <td class="py-4 px-6 font-semibold text-red-400">9 مساءً</td>
+                            <td class="py-4 px-6 font-bold">باب مصر</td>
+                            <td class="py-4 px-6 text-gray-400">محمود سعد</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="container mx-auto px-6 py-12 max-w-2xl" id="us">
+        <h2 class="text-3xl font-black text-center mb-8 text-white">تواصل معنا</h2>
+        <form id="contactForm" class="bg-slate-800 p-8 rounded-3xl shadow-xl flex flex-col gap-5 border border-slate-700">
+            <input type="text" placeholder="الاسم الكامل" required class="p-4 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+            <input type="email" placeholder="البريد الإلكتروني" required class="p-4 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-red-500">
+            <textarea placeholder="اكتب رسالتك هنا..." rows="4" required class="p-4 bg-slate-900 border border-slate-700 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-red-500"></textarea>
+            <button type="submit" class="bg-red-600 text-white font-bold py-4 rounded-xl hover:bg-red-700 transition shadow-lg">إرسال الرسالة</button>
+        </form>
+    </section>
+
+    <footer class="bg-slate-950 text-white py-8 text-center border-t border-slate-800">
+        <div class="container mx-auto px-6 flex flex-col items-center gap-4">
+            <div class="flex gap-6">
+                <a href="#" class="hover:opacity-75 transition"><img src="facebook.png" alt="Facebook" class="w-8 h-8"></a>
+                <a href="#" class="hover:opacity-75 transition"><img src="instagram.png" alt="Instagram" class="w-8 h-8"></a>
+                <a href="#" class="hover:opacity-75 transition"><img src="youtube.png" alt="YouTube" class="w-8 h-8"></a>
+            </div>
+            <p class="text-gray-400 text-sm mt-2">قناة النهار - جميع الحقوق محفوظة 2026 ©</p>
+        </div>
+    </footer>
+
+    
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('شكراً لكِ! تم إرسال رسالتك بنجاح.');
+            this.reset();
+        });
+    </script>
+
+</body>
+</html>

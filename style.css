@@ -1,0 +1,266 @@
+body{
+   background-color: rgb(204, 209, 221);
+   color: black;
+   margin: 0;
+   padding: 0;
+   font-family: cairo, sans-serif;
+}
+header{
+    background-color: rgb(48, 120, 184);
+    width: 100%;
+}
+header img{
+    width: 80px;
+    border-radius: 80px;
+}
+
+
+    
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto ;
+
+    direction: rtl;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+   
+
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.right-sidr{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+   text-decoration: underline;
+}
+.hero{
+   background-color: #96a9ce; 
+   color: white;
+   padding: 30px;
+   text-align: center;
+}
+
+.hero .btn{
+   display: inline-block; 
+   margin: 10px;
+   padding: 10px 25px;
+   background-color: rgb(83, 68, 129);
+   color: white;
+   text-decoration: none;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.hero .btn:hover{
+    background-color: rgb(200, 197, 211);
+}
+
+.section{
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2{
+   margin-bottom: 30px; 
+   color: rgb(21, 20, 20);
+   text-align: center;
+   padding-right: 0;
+   direction: rtl;
+}
+.program-list,.host-list, .video-list, .social-icons{
+    display: flex !important;
+    flex-direction: row;
+    
+   
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+.social-icons img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+
+}
+.social-icons img:hover,.programs
+img:hover, video img:hover{
+    transform: scale(1.1);
+}
+
+.social-icons a{
+  text-decoration: none;  
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+.programs_list{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.programs , host, video{
+   background-color: white; 
+   border-radius: 8px;
+   box-shadow:0 0 10px rgba(0,0,0,0.1);
+   padding: 15px;
+   width: calc(45%- 20px) !important;
+   border: 2px salmon ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+programs, img, video img{
+    width: 100% !important;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+host img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,td{
+    border: 1px solid;
+    padding: 10px;
+    font-family: 16px;
+}
+
+.ticker {
+    background: #644242;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.marquee-alt{
+    position: relative;
+    right:-100%;
+    color: rgb(228, 12, 12);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    animation: slideRelative 30s  1s  infinite;
+}
+@keyframes slideRelative{
+    0%{
+    right:-100%;
+    }
+    100%{
+        right: 100%;
+    }
+
+} 
+social img{
+   width: 40px; 
+   height: 40px;
+   border: 50%;
+   transition: transform 0.3s;
+}
+
+.social-icons img:hover{
+    transform: scale(1.2);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    margin: auto;
+    
+}
+input, textarea{
+    padding: 10px;
+    border: 1px solid #a41616;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: #b80000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+button:hover{
+    background-color: #a41616;
+}
+
+footer{
+    background-color: #0547d4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+
+
+
+
+  
+
+
+
+
